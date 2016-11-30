@@ -108,7 +108,7 @@ namespace ThemeEditorOffsetsFix
                     NaturalResourceManager.instance.m_naturalResources[
                         i*NaturalResourceManager.RESOURCEGRID_RESOLUTION + j].m_pollution = 255;
                     NaturalResourceManager.instance.m_naturalResources[
-                        i*NaturalResourceManager.RESOURCEGRID_RESOLUTION + j].m_modified = true;
+                        i*NaturalResourceManager.RESOURCEGRID_RESOLUTION + j].m_modified = 2;
 //                    if (i < 2)
 //                    {
 //                        buffers[i][j].m_pollution = buffers[i][j].m_height;
